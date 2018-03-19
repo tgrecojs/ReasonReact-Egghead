@@ -3,8 +3,8 @@
 
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
-var HelloWorld$ReactTemplate = require("./HelloWorld.bs.js");
+var Page$ReactTemplate = require("./Page.bs.js");
 
-ReactDOMRe.renderToElementWithId(ReasonReact.element(/* None */0, /* None */0, HelloWorld$ReactTemplate.make(/* array */[])), "index");
+ReactDOMRe.renderToElementWithId(ReasonReact.element(/* None */0, /* None */0, Page$ReactTemplate.make("Hello!", /* array */[])), "index");
 
 /*  Not a pure module */

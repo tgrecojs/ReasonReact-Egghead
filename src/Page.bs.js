@@ -8,7 +8,7 @@ var ReasonReact = require("reason-react/src/ReasonReact.js");
 var component = ReasonReact.statelessComponent("Page");
 
 function handleClick(_, _$1) {
-  console.log("click!");
+  console.log("Hello there!!");
   return /* () */0;
 }
 
