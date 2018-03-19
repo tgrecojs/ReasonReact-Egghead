@@ -1,4 +1,4 @@
-# first-app
+# ReasonReact Egghead
 
 Run this project:
 
