@@ -3,8 +3,8 @@
 
 var ReactDOMRe = require("reason-react/src/ReactDOMRe.js");
 var ReasonReact = require("reason-react/src/ReasonReact.js");
-var HelloWorld$ReactTemplate = require("./HelloWorld.bs.js");
+var Counter$ReactTemplate = require("./Counter.bs.js");
 
-ReactDOMRe.renderToElementWithId(ReasonReact.element(/* None */0, /* None */0, HelloWorld$ReactTemplate.make(/* array */[])), "index");
+ReactDOMRe.renderToElementWithId(ReasonReact.element(/* None */0, /* None */0, Counter$ReactTemplate.make(/* array */[])), "index");
 
 /*  Not a pure module */
